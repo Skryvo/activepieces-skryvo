@@ -13,7 +13,7 @@ there are two routes; the first works today.
    repository, or their Docker image), **Settings › My Pieces › Install Piece**, `@skryvo/piece-skryvo`, version
    `0.1.0`. Connect with the review account's key, run Write a Post for Telegram and Schedule a Post to the
    Telegram test channel, and enable a flow with New Event once production serves the webhook routes.
-4. Name the package on https://skryvo.ai/docs/ and drop "Not yet on npm" from this README.
+4. Name the package on https://skryvo.ai/docs/.
 
 ## Route 2: a pull request to Activepieces (when it reopens to new contributors)
 

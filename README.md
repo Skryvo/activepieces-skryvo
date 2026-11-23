@@ -7,7 +7,7 @@ articles to a blog, and start flows when a post publishes or fails, an article i
 Skryvo is a hosted AI content platform, a paid service with a 7-day free trial on Hobby and Pro
 (https://skryvo.ai/pricing/). Docs: https://skryvo.ai/docs/
 
-Not yet on npm or in Activepieces' piece list; `SUBMIT.md` has the steps.
+Published on npm as [`@skryvo/piece-skryvo`](https://www.npmjs.com/package/@skryvo/piece-skryvo). It is not in Activepieces' own piece list yet.
 
 ## Install
 
