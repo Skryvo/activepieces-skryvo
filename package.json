@@ -1,0 +1,42 @@
+{
+  "name": "@skryvo/piece-skryvo",
+  "version": "0.1.0",
+  "description": "Skryvo for Activepieces: write, design and schedule posts and articles in a brand's voice, and start flows when posts publish.",
+  "main": "./dist/src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "tsc -p . && node --test test/piece.test.mjs"
+  },
+  "keywords": [
+    "activepieces",
+    "skryvo",
+    "social media",
+    "content"
+  ],
+  "author": "Flutter Studio LLC <support@skryvo.ai>",
+  "license": "MIT",
+  "dependencies": {
+    "@activepieces/pieces-common": "^0.12.5",
+    "@activepieces/pieces-framework": "^0.32.0",
+    "@activepieces/shared": "^0.95.1",
+    "tslib": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "nock": "^14.0.17",
+    "typescript": "^5.9.3"
+  },
+  "homepage": "https://skryvo.ai/docs/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skryvo/activepieces-skryvo.git"
+  },
+  "types": "./dist/src/index.d.ts",
+  "type": "commonjs",
+  "files": [
+    "dist/src"
+  ]
+}
